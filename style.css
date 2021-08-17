@@ -1,0 +1,34 @@
+/* ------ CSS - Founders & Coders - Personal Website ------ */
+/*
+=============== 
+Fonts
+===============
+/* 
+
+*/
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Comfortaa|Kaushan+Script|Oswald&display=swap");
+/*
+=============== 
+Variables
+===============
+*/
+/* === Light colour theme === */
+
+/* === Dark colour theme === */
+
+/*
+=============== 
+Global Styles
+===============
+*/
+html {
+  scroll-behavior: smooth;
+}
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
