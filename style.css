@@ -640,6 +640,46 @@ Career Hstory
   margin-bottom: 1.25rem;
 }
 
+/* === Contact Section === */
+.social-icons {
+  text-align: center;
+}
+.fab {
+  font-size: 3rem;
+  margin-right: 1rem;
+  cursor: pointer;
+  color: var(--primary-color);
+}
+.fab:hover {
+  color: var(--on-background);
+}
+.icon-anchor:hover {
+  background: rgba(255, 0, 0, 0);
+}
+#codewars {
+  background: var(--codewars-logo);
+  background-size: 100%;
+  border-radius: 50%;
+  width: 3rem;
+  height: 3rem;
+}
+#codewars:hover {
+  background: var(--codewars-hover);
+}
+@media screen and (min-width: 768px) {
+  .fab {
+    font-size: 5rem;
+    margin-right: 2rem;
+  }
+  .slide-container {
+    min-height: 45rem;
+  }
+  #codewars {
+    width: 5rem;
+    height: 5rem;
+  }
+}
+
 @font-face {
   font-family: "Destruido Exterior 2";
   font-style: normal;
