@@ -43,6 +43,161 @@
   <!-- Body -->
   <!----------------------------------------------------------->
   <body>
+    <!---------- HEADER ---------->
+    <header id="home">
+      <nav id="nav">
+        <div class="nav-center">
+          <!---------- Nav header Logo ---------->
+          <div class="nav-header">
+            <img class="logo" />
+            <!---------- Nav Toggle Icon ---------->
+            <button class="nav-toggle toggle-text">
+              <i class="fas fa-bars"></i>
+            </button>
+          </div>
+
+          <!---------- Nav Links ---------->
+          <div class="links-container">
+            <ul class="links">
+              <li>
+                <a href="#home" class="scroll-link">home</a>
+              </li>
+              <li>
+                <a href="#about" class="scroll-link">history</a>
+              </li>
+              <li>
+                <a href="#projects" class="scroll-link">projects</a>
+              </li>
+              <li>
+                <a href="#information" class="scroll-link">Infomation</a>
+              </li>
+
+              <!---------- Light/Dark Mode Switch ---------->
+              <li id="mode-slider">
+                <div class="theme-switch-wrapper">
+                  <label class="theme-switch">
+                    <input type="checkbox" />
+                    <div class="slider round"></div>
+                  </label>
+                  <span id="toggle-icon">
+                    <span class="toggle-text">Light Mode</span>
+                    <i class="fas fa-sun"></i>
+                  </span>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!---------- Header Banner ---------->
+      <div class="banner">
+        <div class="container">
+          <h1 class="disable-select">Pierson Lippard</h1>
+          <h2 class="artist disable-select">
+            3D Artist <br />
+            & <br />Front End Developer
+          </h2>
+          <h3 id="welcome" class="disable-select">Welcome to the website</h3>
+          <a href="#information" class="scroll-link btn btn-white">
+            explore information
+          </a>
+        </div>
+        <canvas id="canvas1"></canvas>
+      </div>
+    </header>
+    <!---------- MAIN ---------->
+
+    <!---------- Career Section ---------->
+    <section id="about" class="section">
+      <div class="title">
+        <h2 class="disable-select">Career <span>History</span></h2>
+      </div>
+      <!---------- Introduction ---------->
+      <div class="timeline-title">
+        <h3 class="disable-select"><span>Introduction</span></h3>
+        <div class="underline"></div>
+      </div>
+      <div class="section-start timeline-center" id="intro">
+        <article class="timeline-item">
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas, unde
+            quo. Cupiditate perferendis inventore minus quis beatae
+            reprehenderit distinctio ex!
+          </p>
+        </article>
+      </div>
+      <!---------- Career Timeline ---------->
+      </div>
+    </section>
+    <!---------- Projects Section ---------->
+    <section id="projects" class="section">
+      <div class="title">
+        <h2 class="disable-select">Coding <span>Projects</span></h2>
+      </div>
+      <div class="timeline-title">
+        <h3 class="disable-select">
+          <span>GitHub Projects</span>
+        </h3>
+      </div>
+      <div class="github-img">
+        <img class="graph" />
+        <!-- -->
+        <img
+          class="img"
+          src="img/github-profile-light.png"
+          alt="Pierson's Github contributions graph"
+        />
+
+        <br />
+        <h3 id="sub-heading" class="image-click disable-select">
+          Please Click Image to Visit Page
+        </h3>
+      </div>
+      <!---------- Image Carousel ---------->
+      
+      <!---------- Social Media Links ---------->
+      <div class="social-icons">
+        <a class="icon-anchor" href="https://github.com/pwl777" target="_/blank"
+          ><i class="fab fa-github"></i
+        ></a>
+        <a
+          class="icon-anchor"
+          href="https://codepen.io/PiersonLippard/pen/rNybawX"
+          target="_/blank"
+          ><i class="fab fa-codepen"></i
+        ></a>
+        <a
+          class="icon-anchor"
+          href="https://www.freecodecamp.org/pierson-lippard"
+          target="_/blank"
+          ><i class="fab fa-free-code-camp"></i
+        ></a>
+        <a
+          href="https://www.codewars.com/users/Pierson_Lippard/completed_solutions"
+          class="icon-anchor"
+          target="_/blank"
+          ><img class="fab" id="codewars"
+        /></a>
+      </div>
+    </section>
+    <!---------- Panel Section ---------->
+    <section id="information" class="section">
+      <div class="title">
+        <h2 class="disable-select">Featured <span>Information</span></h2>
+      </div>
+     
+    </section>
+    <!---------- FOOTER ---------->
+    <footer class="section">
+      <p class="disable-select">
+        copyright &copy; pierson lippard <span id="date"> </span>
+        .all rights reserved
+      </p>
+    </footer>
+    <!-- Back to home button  -->
+    <a href="#home" class="scroll-link top-link">
+      <i class="fas fa-arrow-up"></i>
+    </a>
     <!----------------------------------------------------------->
     <!-- JavaScript -->
     <!----------------------------------------------------------->
