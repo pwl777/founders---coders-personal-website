@@ -494,22 +494,6 @@ footer p {
     transform: scale(1);
   }
 }
-.section {
-  display: grid;
-  justify-items: center;
-  align-items: center;
-  padding-bottom: 5rem;
-}
-.section-center {
-  width: 90vw;
-  margin: 0 auto;
-  max-width: 1170px;
-}
-@media screen and (min-width: 992px) {
-  .section-center {
-    width: 95vw;
-  }
-}
 
 /*
 =============== 
@@ -533,7 +517,7 @@ Career Hstory
   /*
     -webkit-transform: translate(50%, 50%);
     transform: translate(50%, 50%);
-    */
+  */
   margin-bottom: 0;
   background: var(--secondary-color);
   color: var(--on-primary);
@@ -640,45 +624,6 @@ Career Hstory
   margin-bottom: 1.25rem;
 }
 
-/* === Contact Section === */
-.social-icons {
-  text-align: center;
-}
-.fab {
-  font-size: 3rem;
-  margin-right: 1rem;
-  cursor: pointer;
-  color: var(--primary-color);
-}
-.fab:hover {
-  color: var(--on-background);
-}
-.icon-anchor:hover {
-  background: rgba(255, 0, 0, 0);
-}
-#codewars {
-  background: var(--codewars-logo);
-  background-size: 100%;
-  border-radius: 50%;
-  width: 3rem;
-  height: 3rem;
-}
-#codewars:hover {
-  background: var(--codewars-hover);
-}
-@media screen and (min-width: 768px) {
-  .fab {
-    font-size: 5rem;
-    margin-right: 2rem;
-  }
-  .slide-container {
-    min-height: 45rem;
-  }
-  #codewars {
-    width: 5rem;
-    height: 5rem;
-  }
-}
 /*
 =============== 
 Carousel Styles
@@ -823,6 +768,53 @@ Carousel Styles
 }
 .slide.last {
   transform: translateX(-100%);
+}
+
+/* === Contact Section === */
+.social-icons {
+  text-align: center;
+}
+.fab {
+  font-size: 3rem;
+  margin-right: 1rem;
+  cursor: pointer;
+  color: var(--primary-color);
+}
+.fab:hover {
+  color: var(--on-background);
+}
+.icon-anchor:hover {
+  background: rgba(255, 0, 0, 0);
+}
+#codewars {
+  background: var(--codewars-logo);
+  background-size: 100%;
+  border-radius: 50%;
+  width: 3rem;
+  height: 3rem;
+}
+#codewars:hover {
+  background: var(--codewars-hover);
+}
+@media screen and (min-width: 768px) {
+  .fab {
+    font-size: 5rem;
+    margin-right: 2rem;
+  }
+  .slide-container {
+    min-height: 45rem;
+  }
+  #codewars {
+    width: 5rem;
+    height: 5rem;
+  }
+}
+/* */
+.icon-anchor:visited,
+.icon-anchor:focus,
+.icon-anchor:active {
+  background: rgba(255, 0, 0, 0);
+  color: rgba(255, 0, 0, 0);
 }
 
 /*

@@ -144,7 +144,7 @@ const projects = [
     img: "img/javascript-image-into-interactive-particles.png",
     code: "javascript",
     title: "Image into Interactive Particles",
-    text: `Javascript exercise: Converted a png image to base64 data, then into particles. Which are manipulated by mouse over event movement.`,
+    text: `Javascript exercise: Converted png to base64 data, then into particles. Manipulated by mouse movement.`,
     link: "https://pwl777.github.io/javascript-image-into-interactive-particles/",
   },
   {
