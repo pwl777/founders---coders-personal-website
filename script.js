@@ -190,11 +190,11 @@ const projects = [
     link: "https://pwl777.github.io/css3-sticky-effect-buttons-with-svg-filters/",
   },
   {
-    img: "img/css3-animated-sprites.png",
-    code: "css",
-    title: "animated sprites",
-    text: `CSS exercise: Animated sprite array, with flip handles to flop sprites.`,
-    link: "https://pwl777.github.io/css3-animated-sprites/",
+    img: "img/javascript-game-stop-the-crows.png",
+    code: "javascript",
+    title: "stop the crows game",
+    text: `Javascript exercise: Animated sprite array, with sound & particles.`,
+    link: "https://github.com/pwl777/javascript-game-stop-the-crows",
   },
 ];
 
