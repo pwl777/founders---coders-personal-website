@@ -194,7 +194,7 @@ const projects = [
     code: "javascript",
     title: "stop the crows game",
     text: `Javascript exercise: Animated sprite array, with sound & particles.`,
-    link: "https://github.com/pwl777/javascript-game-stop-the-crows",
+    link: "https://pwl777.github.io/javascript-game-stop-the-crows/",
   },
 ];
 
