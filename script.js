@@ -183,6 +183,27 @@ const projects = [
     link: "https://pwl777.github.io/css3-3d-menu-clip-path-animation/",
   },
   {
+    img: "img/css3-buttons-liquid.png",
+    code: "css",
+    title: "Liquid Buttons",
+    text: `CSS exercise: First experience using svg filters to create a liquid effect.`,
+    link: "https://pwl777.github.io/css3-liquid-buttons/",
+  },
+  {
+    img: "img/css3-honeycomb-buttons.png",
+    code: "css",
+    title: "Honeycomb Buttons",
+    text: `CSS exercise: Animated clip path shaped honeycomb menu buttons.`,
+    link: "https://pwl777.github.io/css3-honeycomb-buttons/",
+  },
+  {
+    img: "img/css3-bubble-popping-buttons.png",
+    code: "css",
+    title: "Bubble Popping Buttons",
+    text: `CSS exercise: Using transitions to make a bubble popping effect.`,
+    link: "https://pwl777.github.io/css3-bubble-popping-buttons/",
+  },
+  {
     img: "img/css3-sticky-effect-buttons-with-svg-filters.png",
     code: "css",
     title: "Sticky Effect Buttons Using SVG Filters",
@@ -193,7 +214,7 @@ const projects = [
     img: "img/javascript-game-stop-the-crows.png",
     code: "javascript",
     title: "stop the crows game",
-    text: `Javascript exercise: Animated sprite array, with sound & particles.`,
+    text: `Javascript exercise: Animated sprite array, with collision, sound & particles.`,
     link: "https://pwl777.github.io/javascript-game-stop-the-crows/",
   },
 ];
