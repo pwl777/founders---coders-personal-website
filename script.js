@@ -1,4 +1,4 @@
-/* ------ Javascript - Founders & Coders - Personal Website ------ */
+/* ------ Javascript - Founders & Coders - Application Website ------ */
 
 /* =============== Dynamically Set Copyright Date =============== */
 

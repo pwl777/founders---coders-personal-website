@@ -1,7 +1,7 @@
 Founders & Coders - Application requirement:
-Personal Website (for Pierson Lippard).
+Application Website (for Pierson Lippard).
 
-![Screenshot](founders-&-coders-personal-website.png)
+![Screenshot](founders-&-coders-application-website.png)
 
 Requirement Features:
 
