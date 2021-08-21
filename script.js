@@ -211,6 +211,13 @@ const projects = [
     link: "https://pwl777.github.io/css3-sticky-effect-buttons-with-svg-filters/",
   },
   {
+    img: "img/css3-animated-checkbox.png",
+    code: "css",
+    title: "Star Wars Animated Checkbox",
+    text: `CSS exercise: Using div shapes and animated transitions, for light/dark mode.`,
+    link: "https://pwl777.github.io/css3-animated-checkbox/",
+  },
+  {
     img: "img/javascript-game-stop-the-crows.png",
     code: "javascript",
     title: "stop the crows game",
